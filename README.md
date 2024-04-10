@@ -5,7 +5,7 @@
 
 ## Requirements
 
-1. macOS 14.4+
+1. macOS Sonoma 14.4+
 2. Xcode 15+ (from App Store using Apple ID)
 
 ## How to run the app
