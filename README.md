@@ -1,19 +1,7 @@
 # Pinatas
 
-## Time
-1 hour
+Imagine you’re an 8-year-old kid. You have a list of several pinatas with candies indexed from 0 to “n-1”. Every pinata has a number inside the array “pinatas”. Your mom said that you should smash all of the pinatas.
 
-## Requirements
+When you smash the pinata with index “i”, from it drops "pinatas[i-1] * pinatas[i] * pinatas[i+1]" candies. If “i-1” or “i+1” is out of the bounds interpret it, as pinata have number 1.
 
-1. macOS Sonoma 14.4+
-2. Xcode 15+ (from App Store using Apple ID)
-
-## How to run the app
-
-1. Download zip or clone repository (git clone "url repository")
-2. Unzip archive
-3. Open spotlight (command + spacebar, enter terminal)
-4. Enter cd "path to folder whele main.swift is located"
-5. Enter swiftc main.swift
-6. Enter swift main.swift
-7. Enter arr of nums (separated by spaces)
+As a result, receives inputs “array of nums” and return max amount of candies you would have by smashing the pinatas wisely.
